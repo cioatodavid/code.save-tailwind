@@ -105,16 +105,36 @@ const ListCollection = () => {
       color: 'bg-violet-400',
       path: '/collection1',
       loc: 'main'
+    }, {
+      name: 'Sidebar Tailwind',
+      color: 'bg-violet-400',
+      path: '/collection1',
+      loc: 'main'
+    },
+    {
+      name: 'Sidebar Tailwind',
+      color: 'bg-violet-400',
+      path: '/collection1',
+      loc: 'main'
+    }, {
+      name: 'Sidebar Tailwind',
+      color: 'bg-violet-400',
+      path: '/collection1',
+      loc: 'main'
+    }, {
+      name: 'Sidebar Tailwind',
+      color: 'bg-violet-400',
+      path: '/collection1',
+      loc: 'main'
     },
   ]
-
 
   return (
     <section className='flex'>
       <div className='bg-gray-800 border-l border-gray-700 min-h-screen overflow-y-auto max-h-screen w-52'>
         <nav className='flex flex-col px-2 py-4 bg-gray-800'>
           <div className='flex items-center justify-between text-center px-2'>
-            <h6 className='text-xs text-center font-semibold text-gray-300 uppercase tracking-widest'>
+            <h6 className='text-xs text-center font-semibold text-gray-200 uppercase tracking-widest'>
               Collections
             </h6>
             <Link to="addcollection">
@@ -131,12 +151,12 @@ const ListCollection = () => {
               <Link
                 key={index}
                 to={collection.path}
-                className='group flex items-center px-2 py-2 mt-2 text-sm font-medium text-gray-100 rounded hover:bg-gray-700 hover:text-white'>
+                className={`group flex items-center px-2 py-2 mt-2 text-sm font-medium text-gray-300 rounded hover:bg-gray-700 hover:text-white`}>
                 <span className={`h-2 w-2 rounded-full mr-4 ${collection.color}`}></span>
                 <span className='truncate'>
                   {collection.name}
                 </span>
-                
+
               </Link>
             ))}
           </div>
