@@ -130,7 +130,7 @@ const ListCollection = () => {
   ]
 
   return (
-    <section className='flex'>
+    <section className='flex shadow-2xl'>
       <div className='bg-gray-800 border-l border-gray-700 min-h-screen overflow-y-auto max-h-screen w-52'>
         <nav className='flex flex-col px-2 py-4 bg-gray-800'>
           <div className='flex items-center justify-between text-center px-2'>

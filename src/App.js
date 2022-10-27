@@ -1,20 +1,15 @@
 import Sidebar from './pages/Sidebar.jsx';
 import ListCollection from './pages/ListCollection.jsx';
 import ListSnippet from './pages/ListSnippet.jsx';
-
-const Main = () => {
-  return (
-    <ListSnippet />
-  );
-};
+import Snippet from './pages/Snippet.jsx';
 
 export default function App() {
   return (
-    <div className='flex min-h-screen bg-gray-900'>
+    <div className='flex align-middle justify-center mx-auto bg-gray-800 min-h-screen min-w-full '>
       <Sidebar />
       <ListCollection />
-
-      <Main />
+      <ListSnippet />
+      <Snippet />
     </div>
   )
 }

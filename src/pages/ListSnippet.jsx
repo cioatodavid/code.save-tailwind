@@ -112,7 +112,7 @@ const ListSnippet = () => {
 
 
   return (
-    <section className='flex'>
+    <section className='flex shadow-2xl'>
       <div className='bg-gray-800 border-l border-gray-700 min-h-screen overflow-y-auto max-h-screen w-72'>
 
         {snippets.map((snippet,index) => (
