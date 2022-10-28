@@ -36,9 +36,9 @@ export default {
     "MozHyphens": "none",
     "msHyphens": "none",
     "hyphens": "none",
-    "padding": "1em",
-    "margin": ".5em 0",
-    "overflow": "auto",
+    "padding": "1rem",
+    "margin": "0",
+    "overflow-y": "auto",
     "overflow-x": "hidden",
     "borderRadius": "0.3em"
   },

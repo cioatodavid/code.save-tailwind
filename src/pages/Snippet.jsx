@@ -43,7 +43,7 @@ const Snippet = () => {
   `;
 
   return (
-    <section className='flex flex-col lign-middle justify-center min-h-screen a max-h-screen max-w-max bg-gray-800 border-x shadow-2xl border-gray-700'>
+    <section className='flex flex-col lign-middle justify-center min-h-screen max-h-screen max-w-max bg-gray-800 border-x shadow-2xl border-gray-700'>
 
       <div className='overflow-x-auto p-4 rounded-lg flex flex-col'>
         <div className='flex justify-between'>
@@ -51,11 +51,11 @@ const Snippet = () => {
             <h1 className='text-3xl text-gray-200 font-bold'>Title</h1>
             <h4 className='text-gray-400'>A long description</h4>
           </div>
-          
+
         </div>
-        <div className='mt-4'>
+        <div className='w-[600px] overflow-auto rounded-lg'>
           <SyntaxHighlighter language="javascript" wrapLongLines style={Dracula}>
-            {codeString}
+              {codeString}
           </SyntaxHighlighter>
         </div>
       </div>
