@@ -145,13 +145,15 @@ const ListCollection = () => {
               </button>
             </Link>
           </div>
-
           <div className='mt-2 space-y-1 border-t border-gray-700'>
+          </div>
+
+          <div>
             {collections.map((collection, index) => (
               <Link
                 key={index}
                 to={collection.path}
-                className={`group flex items-center px-2 py-2 mt-2 text-sm font-medium text-gray-300 rounded hover:bg-gray-700 hover:text-white`}>
+                className={`group flex items-center px-2 py-2 mt-2 text-sm font-medium text-gray-300 rounded hover:bg-gray-700  duration-200 hover:text-white`}>
                 <span className={`h-2 w-2 rounded-full mr-4 ${collection.color}`}></span>
                 <span className='truncate'>
                   {collection.name}

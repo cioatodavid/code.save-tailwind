@@ -36,10 +36,10 @@ export default {
     "MozHyphens": "none",
     "msHyphens": "none",
     "hyphens": "none",
-    "padding": "1rem",
+    "padding": "1.5rem",
     "margin": "0",
-    "overflow-y": "auto",
-    "overflow-x": "hidden",
+    "overflowY": "auto",
+    "overflowX": "hidden",
     "borderRadius": "0.3em"
   },
   ":not(pre) > code[class*=\"language-\"]": {
